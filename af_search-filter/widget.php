@@ -2,13 +2,13 @@
 
 class SearchFilterWidget extends WP_Widget {
 
-    function SearchFilterWidget(){
+    function __construct(){
         //constructor
         $widget_ops = array(
             'classname' => 'Search-filter-Widget', 
             'description' => "Widget de busqueda Custom para la barra lateral"
          );
-        $this->WP_Widget('SearchFilterWidget', "Search Filter Widget", $widget_ops);
+        parent::__construct('SearchFilterWidget', "Search Filter Widget", $widget_ops);
     }
 
     function widget($args,$instance){

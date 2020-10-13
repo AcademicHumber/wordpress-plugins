@@ -2,13 +2,13 @@
 
 class MonopolWidget extends WP_Widget {
 
-    function MonopolWidget(){
+    function __construct(){
         //constructor
         $widget_ops = array(
             'classname' => 'MonopolWidget', 
             'description' => "Widget Custom para la barra lateral de Monopol Automotiva"
          );
-        $this->WP_Widget('MonopolWidget', "Widget custom Monopol", $widget_ops);
+        parent::__construct('MonopolWidget', "Widget custom Monopol", $widget_ops);
     }
 
     function widget($args,$instance){

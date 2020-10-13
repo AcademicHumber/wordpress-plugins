@@ -4,7 +4,7 @@ Plugin Name: Custom Search Filter
 Description: Widget personalizado para la barra lateral, con este widget se pueden buscar productos por categoria y etiqueta.
 Version: 1.0
 Author: Adrian Humberto Fernandez Toranzo
-Author mail: ahft_2000@hotmail.com
+Author URI: https://www.linkedin.com/in/adrian-fernandez-bb33191b1/
 */
 include_once(plugin_dir_path( __FILE__ ).'/includes/functions.php');
 
