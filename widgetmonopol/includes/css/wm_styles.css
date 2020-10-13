@@ -1,0 +1,56 @@
+/* COLORS */
+
+button.wm_color1{
+    background: #E42213;
+}
+button.wm_color2{		
+    background: rgb(75, 79, 84) !important;
+}
+button.accordion.sub1{
+background: #d53b3d;
+}
+button.accordion.sub2{		
+    background: rgb(117, 122, 146) !important;
+}
+
+/* STRUCTURE */
+
+.accordion {    	
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px 18px;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 20px;
+  border: 3px solid white;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  height: auto;
+  
+}	
+.panel-1{
+  padding-left: 20px;
+  display:none;			
+}
+.panel-1 button{		
+  font-weight:normal;		
+}	
+.panel{  
+  display: none;
+  padding-left: 25px;
+}
+.panel img{
+  display: none !important;	
+}
+.panel h5 a{
+  font-size: 17px !important;
+}
+.panel div{
+  margin: 0 !important;
+  width: 100%;
+  border-radius: 20px;
+}
+.panel .product-details{
+	padding: 13px !important;
+}
