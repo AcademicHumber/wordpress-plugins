@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Custom Search Filter
-Description: Widget personalizado para la barra lateral, con este widget se pueden buscar productos por categoria y etiqueta.
-Version: 1.3
+Description: Widget personalizado para la barra lateral de COFAR, con este widget se pueden buscar productos por acción terapéutica y molécula, configurado para obtener todas las categorias hijo de Acción terapéutica (slug: 206) y todas las etiquetas que representan a las moléculas.
+Version: 1.4
 Author: Adrian Humberto Fernandez Toranzo
 Author URI: https://www.linkedin.com/in/adrian-fernandez-bb33191b1/
 */
@@ -28,15 +28,6 @@ function sf_load_stylesheets(){
 
 }
 add_action('wp_enqueue_scripts', 'sf_load_stylesheets');
-
-/**
- * Add JS
- */
-
- function sf_load_script(){
-    include_once(plugin_dir_path( __FILE__ ).'/includes/js/select_change.js.php');   
- }
- add_action('wp_footer', 'sf_load_script');
 
 
 ?>
