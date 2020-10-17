@@ -1,5 +1,5 @@
-=== widgetmonopol ===
-Tags: Custom-Monopol-Widget
+=== Custom Search Filter===
+Tags: Custom-search-Filter
 Requires at least: 3.7
 License: GPU
 

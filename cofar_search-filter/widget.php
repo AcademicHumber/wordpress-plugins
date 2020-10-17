@@ -1,14 +1,14 @@
 <?php
 
-class SearchFilterWidget extends WP_Widget {
+class SearchFilterCofar extends WP_Widget {
 
     function __construct(){
         //constructor
         $widget_ops = array(
-            'classname' => 'Search-filter-Widget', 
-            'description' => "Widget de busqueda Custom para la barra lateral"
+            'classname' => 'SearchFilterCofar', 
+            'description' => "Widget de busqueda por acción terapéutica y moléculas"
          );
-        parent::__construct('SearchFilterWidget', "Search Filter Widget", $widget_ops);
+        parent::__construct('SearchFilterCofar', "Filtro de busqueda COFAR", $widget_ops);
     }
 
     function widget($args, $instance){
