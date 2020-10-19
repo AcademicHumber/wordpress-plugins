@@ -16,8 +16,8 @@ $all_tags = csf_get_tags();
     endforeach; ?>
   </select>
 
-  <label for="tag" class="sf_label">Molécula</label>
-  <select id="tag" name="product_tag" class="sf_form_select">
+  <label for="molTag" class="sf_label">Molécula</label>
+  <select id="molTag" name="product_tag" class="sf_form_select">
     <option value="">Todas</option>
     <?php $tags = get_tags();
     foreach ($all_tags as $tag):?>
@@ -27,6 +27,7 @@ $all_tags = csf_get_tags();
   <input type="hidden" value="product" name="post_type"/>
   <input type="hidden" value="" name="s"/>
   <input type="submit" class="sf-form-button" value="<?php echo esc_attr_x( 'Buscar', 'submit button' ) ?>" />
+  <a href="<?php echo get_permalink(woocommerce_get_page_id('shop'));?>" class="button sf-clean">Limpiar</a>
   
 </form>
 </section>

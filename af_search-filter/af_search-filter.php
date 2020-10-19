@@ -34,9 +34,10 @@ add_action('wp_enqueue_scripts', 'sf_load_stylesheets');
  */
 
  function sf_load_script(){
-    include_once(plugin_dir_path( __FILE__ ).'/includes/js/select_change.js.php');   
+    wp_register_script( 'csf_script', plugins_url( 'includes/js/select_change.js', __FILE__ ), '', 1, 'all' );
+    wp_enqueue_script('csf_script'); 
  }
- add_action('wp_footer', 'sf_load_script');
+ add_action('wp_enqueue_scripts', 'sf_load_script');
 
 
 ?>

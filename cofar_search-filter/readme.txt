@@ -1,7 +1,7 @@
 === Widget COFAR ===
 Tags: Custom-filter-COFAR-Widget
 Requires at least: 3.7
-License: GPU
+License: GNU GPL
 
 Widget personalizado de filtro de productos para la barra lateral de COFAR.
 

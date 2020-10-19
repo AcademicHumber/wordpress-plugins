@@ -5,7 +5,7 @@ $categories_data;
 
 $taxonomy     = 'product_cat';
 $orderby      = 'name';
-$category_id  = '1186';
+$category_id  = '2177';
 $show_count   = 0;      // 1 for yes, 0 for no
 $pad_counts   = 0;      // 1 for yes, 0 for no
 $hierarchical = 1;      // 1 for yes, 0 for no  
